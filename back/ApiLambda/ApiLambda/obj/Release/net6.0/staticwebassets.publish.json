@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "c6Bda8TCAycjPQuUhHZmgqnzfmf9zEr2mf8SGCG36E8=",
+  "Source": "ApiLambda",
+  "BasePath": "_content/ApiLambda",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,26 @@
+{
+  "profiles": {
+    "ApiLambda": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Password": "123",
+        "AwsAccessKey": "",
+        "AwsSecretKey": "",
+        "AwsRegion": "us-east-1",
+        "BucketName": "",
+        "FileName": "curriculoDaniloSilva",
+        "expiresTime": "10"
+      },
+      "applicationUrl": "https://localhost:63611;http://localhost:63612"
+    },
+    "Mock Lambda Test Tool": {
+      "commandName": "Executable",
+      "commandLineArgs": "--port 5050",
+      "workingDirectory": ".\\bin\\$(Configuration)\\net6.0",
+      "executablePath": "%USERPROFILE%\\.dotnet\\tools\\dotnet-lambda-test-tool-6.0.exe"
+    }
+  }
+}
